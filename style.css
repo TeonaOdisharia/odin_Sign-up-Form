@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+@import url('fonts/Norse-Bold.otf');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Skranji&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-side {
+    width: 40vw;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 15vh;
+}
+
+.logo img {
+    height: 13vh;
+}
+
+.logo-text {
+    font-family: Skranji;
+    color: #fff;
+    font-size: 8rem;
+}
+
+
+.right-side {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FAFB;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    color: #596D48;
+}
+
+.content {
+    height: 30%;
+    width: 100%;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.footer {
+    margin-top: 55vh;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.footer-link {
+    color: #fff;
+}
+
+.form-group {
+    display: flex;
+    justify-content: start;
+    margin-top: 2rem;
+}
+
+.form-group-side {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30%;
+}
+
+.form-group-side label {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.form-group-side input {
+    font-size: 1.2rem;
+    width: 20rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+    border-color: #E5E7EB;
+    border-radius: 0.3rem;
+}
+
+.form-group-side input:focus {
+    border-color: blue;
+}
+.form-group-side input:invalid {
+    border-color: red;
+}
+
+.actions {
+    height: 30%;
+    width: 100%;
+    padding: 4rem;
+}
+
+.create-acount {
+    all: unset;
+    height: 3.5rem;
+    width: 18rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    background-color: #596D48;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    /* Shadow effect */
+    transition: box-shadow 0.3s ease;
+}
+
+.create-acount:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+}
+
+.create-acount:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Reduced shadow on click */
+}
+
+.log-in{
+    font-size: 1.3rem;
+}
+
+.log-in-link{
+    all:unset;
+    color: #596D48;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
